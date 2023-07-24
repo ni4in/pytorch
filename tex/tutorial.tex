@@ -1,0 +1,48 @@
+\documentclass{beamer}
+\usepackage{hyperref}
+\usetheme{Madrid}
+\usepackage{listings}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{xcolor}
+\usepackage{fouriernc}
+\usepackage{tgschola}
+\title{Data Strucutres and Algorithms}
+\author{Nithin}
+\institute{}
+\date{\today}
+\begin{document}
+\begin{frame}
+ \frametitle{A real world example}
+ consider the following standards of a company for salary
+ \begin{itemize}
+  \item minimum wage = $1000$
+  \item $2000$ increase for every year of experience
+ \end{itemize}
+ A two year experienced person will get :
+ \pause
+  $5600$ (He is \textbf{LUCKY} !!)
+\pause
+\begin{block}{How to Model this ?}
+\pause
+\begin{displaymath}
+\mathnormal{y = b + wx + \epsilon}
+\end{displaymath}
+\end{block}
+\pause
+\begin{itemize}
+    \item $\mathnormal{y}$ = output  $\implies$ salary
+    \pause
+    \item $\mathnormal{x}$ = input $\implies$ experience
+    \pause
+    \item $\mathnormal{b}$ = dc/average value. the value when $x = 0 \implies$ minimum wage
+    \pause
+    \item $\mathnormal{\epsilon}$ = the noise $\implies$ Luck !! or HR subjective bias
+\end{itemize}
+
+\end{frame}
+
+
+\end{document}
